@@ -1,0 +1,54 @@
+.boxmov {
+    position: relative;
+    width: 19.1rem;
+    height: 56.8rem;
+    left: 8.9px !important;
+    top: 8px !important;
+    margin-right: -19rem;
+    border-radius: 5px;
+    border: 5px solid #7FBCB1;
+    background-color: black;
+
+  
+  }
+  
+  .moviment {
+    font-family: 'Jost';
+    position: relative;
+    top: 23.5vh !important;
+    margin-left: 2.5rem;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400s;
+    color: white;
+  
+  }
+  
+  .direitos{
+    margin-left:25px;
+    margin-top:55.5rem;
+  }
+  
+  .bemvindo{
+    margin-top:1.3rem;
+  }
+  
+  .corpoavante{
+    margin-top:8px;
+    margin-left:8px;
+  }
+  
+  .caixaexcluir{
+
+    box-sizing: border-box;
+    width: 90rem;
+    height: 40rem;
+    margin-left: 4.5rem;
+    margin-top: -4rem;
+    background: #FFFFFF;
+    border: 3px solid rgba(231, 192, 73, 0.9);
+    border-radius: 10px;
+
+  }
+
+ 

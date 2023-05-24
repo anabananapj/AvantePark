@@ -1,0 +1,70 @@
+.boxmov {
+    position: relative;
+    width: 19.1rem;
+    height: 56.8rem;
+    left: 8.9px !important;
+    top: 8px !important;
+    margin-right: -19rem;
+    border-radius: 5px;
+    border: 5px solid #7FBCB1;
+    background-color: black;
+
+  
+  }
+  
+  .moviment {
+    font-family: 'Jost';
+    position: relative;
+    top: 23.5vh !important;
+    margin-left: 2.5rem;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400s;
+    color: white;
+  
+  }
+  
+  .direitos{
+    margin-left:25px;
+    margin-top:55.5rem;
+  }
+  
+  .bemvindo{
+    margin-top:1.3rem;
+  }
+  
+  .corpoavante{
+    margin-top:8px;
+    margin-left:8px;
+  }
+  
+  .modal-content{
+    margin-left: 10rem !important;
+    margin-top:15rem;
+
+  }
+
+  .modal-body{
+    height: 16rem !important;
+    font-family: 'Jost';
+  }
+
+  .btn{
+    border: none !important;
+    background-color: black !important;
+  }
+
+  .modal-footer{
+    margin-top:2rem;
+  }
+
+  .inputvag inputs{
+    border:2px solid black;
+    border-radius:2px;
+  }
+
+  .close{
+    border: none    ;
+  }
+
+

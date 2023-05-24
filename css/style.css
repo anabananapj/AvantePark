@@ -1,0 +1,1103 @@
+  @font-face {
+    font-family: 'Darker Grotesque';
+    src: url('../fonts/DarkerGrotesque-Regular.ttf') format('truetype');
+
+  }
+
+  @font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.ttf') format('truetype');
+
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    src: url('../fonts/Jost-Regular.ttf') format('truetype');
+
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit;
+  }
+
+  body {
+    cursor: default;
+    background-image: url("../img/imagemfundo.jfif") !important; 
+
+
+  }
+
+  .box-centro {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .login {
+    width: 350px;
+    margin-right: 2rem;
+    background: linear-gradient(90deg, #000000 0%, #0E3E52 100%);
+    border: 3px solid rgba(231, 192, 73, 0.9);
+    border-radius: 15px;
+  }
+
+  .welcome {
+    justify-content: center;
+    margin-top: 8rem;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+  }
+
+  .userid {
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 10px 10px 10px 35px;
+
+
+  }
+
+  .centro {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .input {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+
+  centro input{
+    border:10px solid black;
+  }
+
+
+
+  .button {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+
+  .button>button {
+    color: black;
+    background: rgb(146, 179, 90);
+    background: linear-gradient(90deg, rgba(255, 252, 154, 1) 0%, rgba(0, 135, 68, 1) 100%);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    transition: all 0.1s ease;
+  }
+
+  .button>button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .button>button>p {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    margin: -15px 0 -10px 0;
+    padding: 0rem;
+  }
+
+  .paginainicial {
+    box-sizing: border-box;
+    width: 950px;
+    background: linear-gradient(90deg, #1A2980 0%, #000000 0.01%, #203A43 100%);
+    border: 3px solid rgba(231, 192, 73, 0.9);
+    border-radius: 15px;
+  }
+
+  .veiculo {
+    text-align: center;
+    margin-top: 8rem;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+
+    background-color: #f3ec78;
+    background-image: linear-gradient(90deg, #88AF94 0%, rgba(231, 192, 73, 0.9) 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent
+  }
+
+  .vinteequatro {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 45px;
+    line-height: 49px;
+    margin-top: 10rem;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .todososdireitos {
+    font-size: 20px;
+    font-family: 'Darker Grotesque';
+    margin-top: 10rem;
+    text-align: center;
+    color: white;
+  }
+
+  .avantepark {
+    position: absolute;
+    left: 99px;
+    top: 22px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-align: center;
+    margin: 19px;
+
+  }
+
+  .boxmov {
+    position: relative;
+    width: 18.5rem;
+    height: 56.2rem;
+    margin-left: 3.5rem !important;
+    margin-top: 1.5rem;
+    margin-right: -19rem;
+    border-radius: 5px;
+    border: 5px solid #7FBCB1;
+    background-color: black;
+
+  }
+
+  .moviment{
+    font-family: 'Jost' !important;
+    position: relative;
+    top: 22vh;
+    margin-left: 2rem !important;
+    font-size: 20px !important;
+    color: white;
+
+    transition: all .5s ease;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    border-radius: 4px !important;
+    width: 10rem;
+  }
+
+  	.moviment:hover {
+    color: #001F3F;
+    background-color: #fff;
+  }
+
+  .container-bemvindo {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 88vh;
+    margin-left: 2vw;
+    width: 12vw;
+  }
+
+  .bemvindo {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Jost';
+    margin-top:-1rem !important;
+
+    font-size: 20px;
+  }
+
+  .corpoavante {
+    box-sizing: border-box;
+    position: relative;
+    width: 99rem;
+    height: 57rem;
+    left: 20rem !important;
+    background: linear-gradient(0deg, #000000, #000000);
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    margin-top:2rem !important;
+  }
+
+  .selecione {
+
+    color: #FFFFFF;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: -30px 15%;
+    font-family: 'Jost';
+    font-size: 45px;
+    text-align: center;
+
+  }
+
+  .textomovi {
+
+    position: relative;
+    margin-left: -8px;
+    top: 70px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+
+
+
+
+  .inputs {
+    display: flex;
+  }
+
+  .label {
+    font-family: 'Jost';
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .inputs input {
+
+    font-family: 'Jost';
+    margin-right: 100px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px;
+    outline: none;
+    border-color: #000000;
+
+  }
+
+  .buttoninput button {
+
+    font-family: 'Darker Grotesque';
+    font-weight: bolder;
+    background-color: rgb(61, 95, 61);
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 1.6rem;
+    margin-left: 11.3rem;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 8px;
+  }
+
+  .buttoninput button:hover {
+    transition: all 0.1s ease;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  .textveiculos {
+
+    position: relative;
+    margin-left: -8px;
+    top: 70px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+
+  
+  .cadastrousuario {
+
+    box-sizing: border-box;
+    width: 30rem;
+    height: 15.5rem;
+    background-color: white;
+    border: 5px solid #88AF94;
+    border-radius: 20px;
+    margin-top: -30px;
+    margin-left:5rem;
+
+  }
+
+  .cadastrovagas {
+    position:absolute;
+    box-sizing: border-box;
+    width: 30rem;
+    height: 15.5rem;
+    background-color: white;
+    border: 5px solid #88AF94;
+    border-radius: 20px;
+    margin-top: 16rem;
+    margin-left:-30.5rem;
+
+  }
+
+  .gerenciamento {
+    position:absolute;
+    box-sizing: border-box;
+    width: 30rem;
+    height: 15.5rem;
+    background-color: white;
+    border: 5px solid #88AF94;
+    border-radius: 20px;
+    margin-top: 16rem;
+    margin-left:-65.6rem;
+
+  }
+
+  .cadastrofuncionario {
+
+    width: 30rem;
+    height: 15rem;
+    background-color: white;
+    border: 5px solid #88AF94;
+    border-radius: 20px;
+    margin-top: -30px;
+    margin-left:10px;
+
+  }
+
+  .cadastrousuario:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+  }
+
+  .cadastrofuncionario:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+  }
+
+  .gerenciamento:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+  }
+
+  .cadastrovagas:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+  }
+
+  .textosgerentes {
+    
+    position: relative;
+    font-family: 'Jost';
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+    
+  }
+
+
+  .caixacadastrofunc {
+
+    width: 50rem;
+    height: 30rem;
+    margin-top: 10rem;
+    margin-left: 25rem;
+    background: white;
+    border: 5px solid #00467F;
+    border-radius: 20px;
+  }
+
+  .textinsira {
+
+    margin-left: 2rem;
+    margin-top: 65px;
+    font-family: 'Jost';
+
+    font-size: 40px;
+    text-align: center;
+    color: black;
+
+  }
+
+  .inputsfunc {
+    display: flex;
+    margin-left: 5rem;
+    margin-top:-2.5rem;
+
+
+  }
+
+  .inputsfunc input {
+
+    font-family: 'Jost';
+    margin-right: 100px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    border-color: #000000;
+
+
+  }
+
+  .buttondoc button {
+
+    font-family: 'Raleway';
+    background-color: 7FBCB1;
+    color: black;
+    width: 150px;
+    height: 35px;
+    margin-top: 3rem;
+    margin-left: 15rem;
+    border-radius: 10px;
+    font-size: 22px;
+    border: none;
+    height: auto;
+    letter-spacing: 3px;
+
+  }
+
+  .buttondoc button:hover {
+    transition: all 0.5s ease;
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: 	#D8BFD8;
+  }
+
+
+  .inputsdoc {
+    display: flex;
+    margin-left: 10rem;
+    margin-top: -rem;
+
+
+  }
+
+  .inputsdoc input {
+
+    font-family: 'Jost';
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    border-color: #000000;
+    background-color: EBEBEB;
+
+
+  }
+
+  .inputexit {
+    display: flex;
+    margin-left: 12rem;
+    margin-top: -1rem;
+
+  }
+
+  .inputexit input {
+
+    font-family: 'Jost';
+    margin-right: 200px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    border-color: #000000;
+    background-color: rgb(235, 235, 235);
+
+
+  }
+
+  .buttonexit button {
+
+    font-family: 'Darker Grotesque';
+    background-color: 7FBCB1;
+    color: black;
+    width: 150px;
+    height: 35px;
+    margin-top: 3rem;
+    margin-left: 12rem;
+    border-radius: 10px;
+    font-size: 30px;
+    border: none;
+    height: auto;
+    letter-spacing: 3px;
+
+
+
+  }
+
+  .buttonexit button:hover {
+    transition: all 0.1s ease;
+    cursor: pointer;
+    transform: scale(1.1);
+
+  }
+
+
+  .textoedit {
+    font-family: 'Darker Grotesque';
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-left: 29rem;
+
+  }
+
+  .textoativar {
+
+    font-family: 'Darker Grotesque';
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-left: 16rem;
+
+  }
+
+  .inputsedit input {
+
+    font-family: 'Jost';
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    border-color: #000000;
+
+  }
+
+  .inputsedit {
+
+    display: flex;
+    margin-left: 11rem;
+    margin-top: -2rem;
+
+  }
+
+  .buttonalterar button {
+
+    font-family: 'Darker Grotesque';
+    background-color: 7FBCB1;
+    color: black;
+    width: 150px;
+    height: 35px;
+    margin-top: 3rem;
+    margin-left: 28rem;
+    border-radius: 10px;
+    font-size: 30px;
+    border: none;
+    height: auto;
+    letter-spacing: 3px;
+
+  }
+
+  .buttonativar button {
+    position: absolute;
+    font-family: 'Jost';
+    background-color: #007c34;
+    color: black;
+    width: 20rem;
+    height: 35px;
+    margin-top: 35rem;
+    margin-left: -25rem;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    height: auto;
+    letter-spacing: 3px;
+
+  }
+
+  .buttonativar button:hover {
+
+    cursor: pointer;
+    background-color: #aaaaaa;
+    transition: all 0.5s ease;
+
+  }
+
+
+  .buttondesativar button {
+
+    font-family: 'Darker Grotesque';
+    background-color: rgb(163, 0, 0);
+    color: white;
+    width: 150px;
+    height: 35px;
+    margin-top: 8rem;
+    margin-left: 25rem;
+    border-radius: 10px;
+    font-size: 30px;
+    border: none;
+    height: auto;
+    letter-spacing: 3px;
+
+  }
+
+  .buttondesativar button:hover {
+
+    cursor: pointer;
+    background-color: #ff0000;
+    transition: all 0.5s ease;
+
+  }
+
+  .buttonactivar button {
+
+    font-family: 'Darker Grotesque';
+    background-color: rgb(16, 99, 0);
+    color: white;
+    width: 150px;
+    height: 35px;
+    margin-top: -2.7rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+    font-size: 30px;
+    border: none;
+    height: auto;
+    letter-spacing: 3px;
+  }
+
+  .buttonactivar button:hover {
+
+    cursor: pointer;
+    background-color: #2ec500;
+    transition: all 0.5s ease;
+
+  }
+
+
+  .buttonalterar button:hover {
+
+    transition: all 0.1s ease;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  .buttonexcluir button:hover {
+
+    transition: all 0.1s ease;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+
+  .textvagas {
+    font-family: 'Jost';
+    color: white;
+    font-size: 50px;
+    margin-left: 42rem;
+    margin-top: 2rem;
+  }
+
+  .setora {
+    font-family: 'Jost';
+    color: white;
+    margin-left: -72.7rem;
+    font-size: 20px;
+    margin-top: 2rem;
+  }
+
+  .setorb {
+    font-family: 'Jost';
+    color: white;
+    margin-left: -47rem;
+    font-size: 20px;
+    margin-top: -3.1rem;
+  }
+
+  .setorc {
+    font-family: 'Jost';
+    color: white;
+    margin-left: -16.5rem;
+    font-size: 20px;
+    margin-top: -3.1rem;
+  }
+
+  .errormsg {
+
+    background-color: #FFCACA;
+    border: 2px #a60202 solid;
+    color: #a60202;
+    border-radius: 5px;
+    font-family:'Jost';
+    height: 2.5rem;
+    margin-top: 10px;
+    font-size: 25px !important;
+  }
+
+  .exp {
+
+    position: absolute;
+    font-family: 'Jost';
+    margin-left: 23.8rem;
+    margin-top: -2rem;
+  }
+
+  .expvaga {
+
+    position: absolute;
+    font-family: 'Jost';
+    margin-left: 35.5rem;
+    margin-top: -2rem;
+    color: white;
+    font-size: 20px;
+  }
+
+  .direitos {
+
+    white-space: nowrap;
+    position: absolute;
+    font-family: 'Jost';
+    color: white;
+    margin-top: 57rem !important;
+    margin-left: 1rem;
+    font-size: 13px;
+  }
+
+
+
+  .texttable {
+    position: absolute;
+    font-family: 'Jost';
+    font-size: 2rem;
+    margin-left: 8.5rem;
+
+  }
+
+  .texttable2 {
+    position: absolute;
+    font-family: 'Jost';
+    font-size: 3rem;
+    margin-left: 18.2rem;
+    
+
+  }
+
+  .exptable {
+    position: absolute;
+    font-family: 'Jost';
+    margin-top: 5rem;
+    margin-left: 8.5rem;
+    font-size: 20px;
+
+  }
+
+  .txtBusca {
+
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    padding-left: 5px;
+    font-family: 'Jost';
+    font-size: 18px;
+    border: 2px solid black;
+    margin-left: 2.5rem;
+    margin-top: 7.2rem;
+    border-radius: 5px;
+    width: 35rem;
+    height: 2.5rem;
+  }
+
+
+  .caixacheckin {
+
+    width: 40rem;
+    height: 50rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+
+    background: white;
+    border: 5px solid #00467F;
+    border-radius: 20px;
+  }
+
+  .crie {
+    position: absolute;
+    font-family: 'Jost';
+    margin-left: 15rem;
+    margin-top: -4rem;
+    font-size: 20px;
+  }
+
+  .textcheck {
+    margin-left: 2rem;
+    margin-top: 65px;
+    font-family: 'Jost';
+    font-size: 60px;
+    text-align: center;
+    color: black;
+  }
+
+  .tablecarros {
+
+    width: 45rem;
+    height: 50rem;
+    margin-top: -50rem;
+    margin-left: 50rem;
+    background: white;
+    border: 5px solid #00467F;
+    border-radius: 20px;
+
+  }
+
+  .textestaci {
+    font-family: 'Jost';
+    font-size: 30px;
+    margin-left: 7rem;
+    color:black;
+  }
+
+
+
+
+  .checkout{
+
+    width: 45rem;
+    height: 25rem;
+    margin-top: 5px;
+    margin-left: 50rem;
+    background: white;
+    border: 5px solid #00467F;
+    border-radius: 20px;
+  }
+
+  .textcheckout{
+    font-family: 'Jost';
+    font-size: 40px;
+    margin-left: 16rem;
+    color: black;
+    
+  }
+
+  .selectcheckout{
+    width: 20rem;
+    margin-left: 12rem;
+    border: 2px solid black;
+    border-radius: 5px;
+     
+  }
+
+
+.spanvagas span{
+  position: relative;
+  font-family: 'Jost';
+  font-weight: bolder;
+  background-color: 	#EEE8AA;
+  color: black;
+  margin-top: 1.6rem;
+  margin-left: 5rem;
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin:2rem 2rem;
+}
+
+.linha-vertical {
+  position: absolute;
+  margin-left: 12rem;
+  margin-top: -3.5rem;
+  height: 47.5rem;
+  border-right: 1px solid white;
+}
+
+.linha-vertical2 {
+  position: absolute;
+  margin-left: 37rem;
+  margin-top: -3.5rem;
+  height: 47.5rem;
+  border-right: 1px solid white;
+}
+
+.linha-vertical3 {
+  position: absolute;
+  margin-left: 61rem;
+  margin-top: -3.5rem;
+  height: 47.5rem;
+  border-right: 1px solid white;
+}
+
+.btn1{
+  position: relative;
+ background-color: #000000 !important;
+ border:1px solid black !important;
+ margin-left:20px !important;
+ top:12.7rem;
+ font-family: 'Jost' !important;
+ font-size: 25px !important;
+ color:white;
+}
+
+.fill {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.fill after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill:hover after {
+  top: 0px;
+  left: 0px;
+}
+
+.vagas span{
+  position: relative;
+  font-family: 'Jost';
+  font-weight: bolder;
+  color: black;
+  margin-top: 1.6rem;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin:15px;
+  width: 5rem;
+  left:-3rem;
+
+}
+
+.vagas2 span{
+  position: relative;
+  font-family: 'Jost';
+  font-weight: bolder;
+  color: black;
+  margin-top: 1.6rem;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin:15px;
+  width: 5rem;
+  left:-3rem;
+
+}
+
+
+.vagas2{
+
+  display: flex;
+  max-width:30rem;
+  max-height: 10rem;
+}
+
+.vagas{
+  flex-flow:wrap;
+  display: flex;
+  max-width:22rem;
+  max-height: 10rem;
+
+}
+
+
+
+button {
+  transition: all 0.1s ease;
+  color: #fff;
+  border: 3px solid white;
+  font-family:'Raleway';
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color : transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+button:hover {
+  color: #001F3F;
+  background-color:	E6E6FA;
+}
+
+.divbusca:hover i{
+  transition: all 0.1s ease;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.busca{
+  width: 3rem !important;
+}
+
+.searchno{
+  position: absolute;
+  font-family: 'Raleway';
+  margin-top:20rem;
+  margin-left: 30rem;
+}
+
+.searchnao{
+  position: absolute;
+  font-family: 'Raleway';
+  margin-top:10rem;
+  margin-left: 14rem;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;          
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;    
+  border-radius: 20px;    
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#A5CC82;  
+  border-radius: 20px;     
+
+}
+
+

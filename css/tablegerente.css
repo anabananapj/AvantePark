@@ -1,0 +1,104 @@
+table{
+    position: relative;
+    color:black;
+    
+
+  }
+  
+  
+  tr{
+    font-family: 'Jost';
+    font-size: 20px;
+  
+  }
+  
+  table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(236, 236, 236);
+    max-width: 100rem !important;
+width: 100vw;
+  }
+
+
+  th{
+    color:6C0000;
+    background-color: black;
+
+  }
+
+  td{
+    width: 20rem;
+  }
+
+  .scroll {
+
+    max-height: 400px;
+    overflow-y: scroll;
+
+  
+  }
+
+  a.editor-create {
+    display: inline-block;
+    margin-bottom: 0.5em;
+} 
+  
+.boxmov {
+  position: relative;
+  width: 19.1rem;
+  height: 56.8rem;
+  left: 8.9px !important;
+  top: 8px !important;
+  margin-right: -19rem;
+  border-radius: 5px;
+  border: 5px solid #7FBCB1;
+  background-color: black;
+
+
+}
+
+.moviment {
+  font-family: 'Jost';
+  position: relative;
+  top: 23.5vh !important;
+  margin-left: 2.5rem;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400s;
+  color: white;
+
+}
+
+.direitos{
+  margin-left:25px;
+  margin-top:55.5rem;
+}
+
+.bemvindo{
+  margin-top:1.3rem;
+}
+
+.corpoavante{
+  margin-top:8px;
+  margin-left:8px;
+}
+
+
+
+.container {
+  margin-right: -30rem;
+  position: relative;
+  margin-right: -3rem;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 50%;
+
+}
+
+.boxtable2{
+  margin-top: 12rem;
+
+}
+
